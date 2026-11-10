@@ -48,7 +48,7 @@ canvas { display: block; width: min(100vw, 177.7778vh); height: min(100vh, 56.25
     await Promise.all(workers);
     status.textContent = "Starting Cruelty Squad…";
     await engine.init(executable);
-    await engine.preloadFile(pack, "index.pck");
+    engine.copyToFS("index.pck", pack);
     await engine.start({args: ["--main-pack", "index.pck"]});
     status.hidden = true;
 
