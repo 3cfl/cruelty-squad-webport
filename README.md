@@ -1,1 +1,1 @@
-Cruelty Squad web port launcher. Download crueltysquad.html and open it in a WebGL 2 browser. The runtime files are pinned to commits in this repository.
+Download crueltysquad.html and open it in a browser with WebGL and an internet connection. The launcher loads game data from pinned jsDelivr URLs.
